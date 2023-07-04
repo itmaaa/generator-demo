@@ -47,7 +47,7 @@ class CodeGeneratorTest {
         config.setPathInfo(pathInfo);
 
         // 不增强三层
-        config.setEnhancer(false);
+       // config.setEnhancer(false);
 
         CodeGenerator.generator(config);
 
